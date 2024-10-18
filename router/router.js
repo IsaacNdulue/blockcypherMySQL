@@ -52,11 +52,6 @@ router.post('/signup', async (req, res) => {
 
 
 
-// Replace with your BlockCypher API key
-const BLOCKCYPHER_API_KEY = '83d9c1f00407417fa68e562125a541a8';
-const BLOCKCYPHER_API_URL = 'https://api.blockcypher.com/v1/btc/test3'; // Testnet URL, use 'btc/main' for mainnet
-// const BLOCKCYPHER_API_URL = 'https://api.blockcypher.com/v1/btc/main';
-
 // const getBalance = async (address) => {
 //     try {
 //       const response = await axios.get(`${BLOCKCYPHER_API_URL}/addrs/${address}/balance?token=${BLOCKCYPHER_API_KEY}`);
